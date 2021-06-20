@@ -2,13 +2,7 @@ from os import kill
 import threading
 import socket
 import sys
-import requests, signal
 
-# ! Terminar script CTRL + C
-def sig_handler(sig, frame):
-    print('[*] Exiting.....\n')
-    sys.exit(0)
-signal.signal(signal.SIGINT, sig_handler)
 
 # ! Fin del comando
 FIN_COMANDO = b'#00#'
