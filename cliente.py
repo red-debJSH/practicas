@@ -66,7 +66,7 @@ def inicializar_conexion(host, puerto):
 if __name__ == '__main__':
     #host = sys.argv[1]
     #puerto = int(sys.argv[2])
-    host = '192.168.0.12'
+    host = '192.168.16.11'
     puerto = 16000
     socket = inicializar_conexion(host, puerto)
     leer_comandos(socket)
